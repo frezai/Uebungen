@@ -22,12 +22,13 @@ public class ChristmasTree {
 		}
 
 		// stamm // noch stimmt die Ausgabe nicht ganz ist zwar in der Mitte abre nicht zu 100% richig :(
-		for (int i = 0; i < height / 2 * 2; i++) {
+		int counter = (height / 10);
+		for (int i = 1; i <= height -counter - 1; i++) {
 			System.out.print(" ");
 		}
-		int counter = (height / 10);
-		for (int i = 1; i <= height / 10 + counter + 1; i++) {
+		for (int i = 1; i <= (2*counter + 1); i++) {
 			System.out.print("I");
 		}
+		System.out.println();
 	}
 }
