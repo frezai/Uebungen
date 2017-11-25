@@ -21,7 +21,7 @@ public class ChristmasTree {
 			System.out.println();
 		}
 
-		// stamm // noch stimmt die Ausgabe nicht ganz ist zwar in der Mitte abre nicht zu 100% richig :(
+		// stamm 
 		int counter = (height / 10);
 		for (int i = 1; i <= height -counter - 1; i++) {
 			System.out.print(" ");
