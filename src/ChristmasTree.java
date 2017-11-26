@@ -15,12 +15,12 @@ public class ChristmasTree {
 		}
 
 		// stamm
-			for(int i = 0; i < height / 2; i++) {
-				System.out.print(" ");
-			}
-			int counter1 = (height / 10) + 1;
-			for(int i = 1; i <= height / 10 + counter1; i++) {
-				System.out.print("I");
-			}
+		for(int i = 0; i < height / 2; i++) {
+			System.out.print(" ");
+		}
+		int counter1 = (height / 10) + 1;
+		for(int i = 1; i <= height / 10 + counter1; i++) {
+			System.out.print("I");
+		}
 	}
 }
